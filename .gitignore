@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+
+# Sloeber
+**/Release/**
+**/core/**
+**/sloeber.ino.cpp
+
+
+# Eclipse
+**/.settings
+
+# vim
+[._]*.un~
