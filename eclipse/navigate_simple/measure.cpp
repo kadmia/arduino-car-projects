@@ -9,6 +9,7 @@
 
 
 void measureTaco(Taco taco, int tacoPin) {
+	/*
 	tacoLeft.newState = digitalRead(TACO_LEFT_PIN);
 	if (tacoLeft.newState == tacoLeft.lastState) {
 		if (tacoLeft.lastState == 0)
@@ -45,7 +46,5 @@ void measureTaco(Taco taco, int tacoPin) {
 		Serial.println(rightSkew);
 		checkMotorSpeed = true;
 	}
+	*/
 }
-
-
-

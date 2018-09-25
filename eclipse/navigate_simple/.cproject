@@ -3,9 +3,9 @@
     	
     <storageModule moduleId="org.eclipse.cdt.core.settings">
         		
-        <cconfiguration id="io.sloeber.core.toolChain.release.383489730">
+        <cconfiguration id="io.sloeber.core.toolChain.release.237675862">
             			
-            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="io.sloeber.core.toolChain.release.383489730" moduleId="org.eclipse.cdt.core.settings" name="Release">
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="io.sloeber.core.toolChain.release.237675862" moduleId="org.eclipse.cdt.core.settings" name="Release">
                 				
                 <externalSettings/>
                 				
@@ -25,19 +25,19 @@
             			
             <storageModule moduleId="cdtBuildSystem" version="4.0.0">
                 				
-                <configuration artifactName="${ProjName}" buildProperties="" id="io.sloeber.core.toolChain.release.383489730" name="Release" parent="org.eclipse.cdt.build.core.emptycfg">
+                <configuration artifactName="${ProjName}" buildProperties="" id="io.sloeber.core.toolChain.release.237675862" name="Release" parent="org.eclipse.cdt.build.core.emptycfg">
                     					
-                    <folderInfo id="io.sloeber.core.toolChain.release.383489730.1983149885" name="/" resourcePath="">
+                    <folderInfo id="io.sloeber.core.toolChain.release.237675862.993932335" name="/" resourcePath="">
                         						
-                        <toolChain id="io.sloeber.core.toolChain.release.1196579733" name="Arduino Toolchain (Sloeber edition)" superClass="io.sloeber.core.toolChain.release">
+                        <toolChain id="io.sloeber.core.toolChain.release.1036696857" name="Arduino Toolchain (Sloeber edition)" superClass="io.sloeber.core.toolChain.release">
                             							
-                            <targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="io.sloeber.targetplatform.1026608885" name="Arduino Target" osList="all" superClass="io.sloeber.targetplatform"/>
+                            <targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="io.sloeber.targetplatform.238221965" name="Arduino Target" osList="all" superClass="io.sloeber.targetplatform"/>
                             							
-                            <builder buildPath="${workspace_loc:/navigate_simple}/Release" id="io.sloeber.sketch.builder.442856873" managedBuildOn="true" name="Arduino sketch builder.Release" superClass="io.sloeber.sketch.builder"/>
+                            <builder buildPath="${workspace_loc:/navigate_simple}/Release" id="io.sloeber.sketch.builder.1418594148" managedBuildOn="true" name="Arduino sketch builder.Release" superClass="io.sloeber.sketch.builder"/>
                             							
-                            <tool id="io.sloeber.tool.sketch.compiler.cpp.2053851932" name="Arduino C++ Compiler" superClass="io.sloeber.tool.sketch.compiler.cpp">
+                            <tool id="io.sloeber.tool.sketch.compiler.cpp.131878193" name="Arduino C++ Compiler" superClass="io.sloeber.tool.sketch.compiler.cpp">
                                 								
-                                <option id="io.sloeber.compiler.cpp.sketch.option.incpath.574279351" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" valueType="includePath">
+                                <option id="io.sloeber.compiler.cpp.sketch.option.incpath.1185812915" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" valueType="includePath">
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/navigate_simple/core/core}&quot;"/>
                                     									
@@ -45,13 +45,13 @@
                                     								
                                 </option>
                                 								
-                                <inputType id="io.sloeber.compiler.cpp.sketch.input.1709137152" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
+                                <inputType id="io.sloeber.compiler.cpp.sketch.input.1800105124" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
                                 							
                             </tool>
                             							
-                            <tool id="io.sloeber.tool.compiler.c.455718294" name="Arduino C Compiler" superClass="io.sloeber.tool.compiler.c">
+                            <tool id="io.sloeber.tool.compiler.c.218763211" name="Arduino C Compiler" superClass="io.sloeber.tool.compiler.c">
                                 								
-                                <option id="io.sloeber.compiler.c.sketch.option.incpath.1311906871" superClass="io.sloeber.compiler.c.sketch.option.incpath" valueType="includePath">
+                                <option id="io.sloeber.compiler.c.sketch.option.incpath.1161332591" superClass="io.sloeber.compiler.c.sketch.option.incpath" valueType="includePath">
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/navigate_simple/core/core}&quot;"/>
                                     									
@@ -59,13 +59,13 @@
                                     								
                                 </option>
                                 								
-                                <inputType id="io.sloeber.compiler.c.sketch.input.1981684355" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
+                                <inputType id="io.sloeber.compiler.c.sketch.input.1549000500" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
                                 							
                             </tool>
                             							
-                            <tool id="io.sloeber.tool.sketch.compiler.s.160024184" name="Arduino Assembler" superClass="io.sloeber.tool.sketch.compiler.s">
+                            <tool id="io.sloeber.tool.sketch.compiler.s.65811214" name="Arduino Assembler" superClass="io.sloeber.tool.sketch.compiler.s">
                                 								
-                                <option id="io.sloeber.compiler.asm.sketch.option.incpath.488214218" superClass="io.sloeber.compiler.asm.sketch.option.incpath" valueType="includePath">
+                                <option id="io.sloeber.compiler.asm.sketch.option.incpath.1742913789" superClass="io.sloeber.compiler.asm.sketch.option.incpath" valueType="includePath">
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/navigate_simple/core/core}&quot;"/>
                                     									
@@ -73,17 +73,17 @@
                                     								
                                 </option>
                                 								
-                                <inputType id="io.sloeber.compiler.S.sketch.input.1883825790" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
+                                <inputType id="io.sloeber.compiler.S.sketch.input.1933085001" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
                                 							
                             </tool>
                             							
-                            <tool id="io.sloeber.tool.ar.1838916565" name="Arduino archiver" superClass="io.sloeber.tool.ar"/>
+                            <tool id="io.sloeber.tool.ar.1587778791" name="Arduino archiver" superClass="io.sloeber.tool.ar"/>
                             							
-                            <tool id="io.sloeber.tool.combine.1764589283" name="Arduino combiner" superClass="io.sloeber.tool.combine"/>
+                            <tool id="io.sloeber.tool.combine.1427854036" name="Arduino combiner" superClass="io.sloeber.tool.combine"/>
                             							
-                            <tool id="io.sloeber.tool.objcopy.eep.1448245622" name="Arduino tool Create eeprom" superClass="io.sloeber.tool.objcopy.eep"/>
+                            <tool id="io.sloeber.tool.objcopy.eep.1439262688" name="Arduino tool Create eeprom" superClass="io.sloeber.tool.objcopy.eep"/>
                             							
-                            <tool id="io.sloeber.tool.size.879765144" name="Arduino tool Print Size" superClass="io.sloeber.tool.size"/>
+                            <tool id="io.sloeber.tool.size.1203952102" name="Arduino tool Print Size" superClass="io.sloeber.tool.size"/>
                             						
                         </toolChain>
                         					
@@ -107,7 +107,7 @@
     	
     <storageModule moduleId="cdtBuildSystem" version="4.0.0">
         		
-        <project id="navigate_simple.null.254304549" name="navigate_simple"/>
+        <project id="navigate_simple.null.1789751367" name="navigate_simple"/>
         	
     </storageModule>
     	
