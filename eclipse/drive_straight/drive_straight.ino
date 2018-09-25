@@ -119,14 +119,17 @@ void adjustMotors() {
 			}
 		}
 		checkMotorSpeed = false;
-		setSpeed(SPEED_SLOW + leftSkew, SPEED_SLOW + rightSkew, MOVE_FORWARD);
+		incrementSpeed(SPEED_SLOW + leftSkew, SPEED_SLOW + rightSkew, MOVE_FORWARD);
 	}
-	//if left != right then adjust spread and set the motors according to the spread
 
 }
 
 void setSpeed(int leftSpeed, int rightSpeed, int direction) {
-	//stopMotors();
+	stopMotors();
+	incrementSpeed(leftSpeed, rightSpeed, direction);
+}
+
+void incrementSpeed(int leftSpeed, int rightSpeed, int direction) {
 	if (direction == HIGH) {
 		//If reverse
 		leftSpeed = invertOurValue(leftSpeed);
